@@ -18,7 +18,7 @@ from geometry_msgs.msg import Point
 
 class Eyedrop(Plugin):
 	def __init__(self, context):
-		super(MEyedrop, self).__init__(context)
+		super(Eyedrop, self).__init__(context)
 		# Give QObjects reasonable names
 		self.setObjectName('Eyedrop')
 		rp = rospkg.RosPack()
